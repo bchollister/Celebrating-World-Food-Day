@@ -4,80 +4,31 @@
 <meta name="description" content="">
 <link rel="stylesheet" href="style.css">
 <script defer src="script.js"></script>
-<link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><defs><radialGradient id='c' cx='50%' cy='50%' r='50%'><stop offset='0' stop-color='%23fbd5e6'/><stop offset='1' stop-color='%23f78fb3'/></radialGradient></defs><g><path d='M32 6c9 0 12 8 12 8s-8 3-12 3-12-3-12-3 3-8 12-8z' fill='url(%23c)'/><path d='M56 28c0-9-8-12-8-12s-3 8-3 12 3 12 3 12 8-3 8-12z' fill='url(%23c)'/><path d='M44 58c9 0 12-8 12-8s-8-3-12-3-12 3-12 3 3 8 12 8z' fill='url(%23c)'/><path d='M8 36c0 9 8 12 8 12s3-8 3-12-3-12-3-12-8 3-8 12z' fill='url(%23c)'/><circle cx='32' cy='32' r='7' fill='%23f6c445'/></g></svg>">
 </head><body>
-<nav class="topbar" aria-label="Site">
-  <div class="inner">
-    <a class="chip" href="index.html">Home</a>
-    <a class="chip" href="zones.html">USDA Zones</a>
-    <a class="chip" href="calendars.html">Calendars</a>
-    <a class="chip" href="preservation.html">Preservation</a>
-    <a class="chip" href="soil.html">Soil</a>
-    <a class="chip" href="diy.html">DIY & Budget</a>
-    <a class="chip" href="volunteer.html">Volunteer</a>
-    <a class="chip" href="resources.html">Resources</a>
-    <a class="chip" id="printBtn" href="#">Print</a>
-    <a class="chip" href="#" onclick="toggleTheme();return false;">Theme</a>
-  </div>
-</nav>
+<nav class="topbar"><div class="inner">
+  <a class="chip" href="index.html">Home</a>
+  <a class="chip" href="zones.html">What Plants Grow in Your Zone?</a>
+  <a class="chip" href="calendars.html">Calendars</a>
+  <a class="chip" href="preservation.html">Preservation</a>
+  <a class="chip" href="soil.html">Getting Into the Soil</a>
+  <a class="chip" href="diy.html">DIY & Budget</a>
+  <a class="chip" href="volunteer.html">Volunteer</a>
+  <a class="chip" href="resources.html">Resources</a>
+</div></nav>
 
-<header class="hero"><h1>Food Preservation</h1>
-  <p class="lead">Make harvests and groceries go further while keeping flavor and nutrition—choose the method that fits your food and storage space.</p>
-</header>
+<header class="hero"><h1>Food Preservation</h1></header>
 <div class="wrap">
-  <section class="section">
-    <h2 class="section-title">Methods & guides</h2>
-    <details>
-      <summary>Freezing — lock in flavor & nutrients</summary>
-      <p class="lead">Freezing halts microbes and enzymes. Blanch veg, cool, and pack well to avoid freezer burn.</p>
-      <div class="links">
-        <a href="https://extension.umn.edu/preserving-and-preparing/freezing-produce" target="_blank" rel="noopener">UMN Extension</a>
-        <a href="https://extension.illinois.edu/food-preservation/freezing" target="_blank" rel="noopener">Illinois Extension</a>
-        <a href="https://frozenadvantage.org/from-farm-to-freezer-how-freezing-locks-in-nutrition-flavor-and-taste-of-the-foods-we-love/" target="_blank" rel="noopener">Frozen Food Foundation</a>
-        <a href="https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/freezing-preserves-food-freshness" target="_blank" rel="noopener">Mayo Clinic Health System</a>
-      </div>
-    </details>
-    <details>
-      <summary>Canning — shelf-stable sauces, jams & veg</summary>
-      <p class="lead">Water-bath for high-acid; pressure for low-acid. Always follow tested recipes for safety.</p>
-      <div class="links">
-        <a href="https://extension.psu.edu/lets-preserve-basics-of-home-canning/" target="_blank" rel="noopener">Penn State Extension</a>
-        <a href="https://nchfp.uga.edu/how/can/general-information/storing-home-canned-foods/" target="_blank" rel="noopener">NCHFP (UGA)</a>
-        <a href="https://www.ballmasonjars.com/canning-preserving" target="_blank" rel="noopener">Ball Mason Jars — Canning Basics</a>
-        <a href="https://en.wikipedia.org/wiki/Canning" target="_blank" rel="noopener">Wikipedia</a>
-      </div>
-    </details>
-    <details>
-      <summary>Dehydrating — lightweight snacks</summary>
-      <p class="lead">Remove moisture via dehydrator or low oven; store in airtight containers away from light.</p>
-      <div class="links">
-        <a href="https://nchfp.uga.edu/how/dry/" target="_blank" rel="noopener">NCHFP</a>
-        <a href="https://www.backpackingchef.com/dehydrating-food.html" target="_blank" rel="noopener">Backpacking Chef</a>
-        <a href="https://homesteadingfamily.com/preservation-101-intro-to-dehydrating-food/" target="_blank" rel="noopener">Homesteading Family</a>
-        <a href="https://www.healthline.com/nutrition/dehydrated-food" target="_blank" rel="noopener">Healthline</a>
-      </div>
-    </details>
-    <details>
-      <summary>Pickling — tangy + preserved</summary>
-      <p class="lead">Quick pickles use vinegar & refrigeration; fermented pickles use salt & time. For shelf storage, can them.</p>
-      <div class="links">
-        <a href="https://nchfp.uga.edu/how/pickle/general-information-pickling/general-information-on-pickling/" target="_blank" rel="noopener">NCHFP</a>
-        <a href="https://www.ballmasonjars.com/step-step-pickling.html" target="_blank" rel="noopener">Ball: Refrigerator Pickles</a>
-        <a href="https://www.almanac.com/how-to-pickle" target="_blank" rel="noopener">Old Farmer’s Almanac</a>
-        <a href="https://en.wikipedia.org/wiki/Pickling" target="_blank" rel="noopener">Wikipedia</a>
-      </div>
-    </details>
-    <details>
-      <summary>Preserving in oil — herbs & veg (safety!)</summary>
-      <p class="lead">Infused oils are delicious but perishable. Refrigerate and use within 3–4 days or freeze; dried ingredients store safer.</p>
-      <div class="links">
-        <a href="https://extension.psu.edu/how-to-safely-make-infused-oils" target="_blank" rel="noopener">Penn State Extension</a>
-        <a href="https://extension.oregonstate.edu/catalog/pub/sp-50-701-herbs-vegetables-oil" target="_blank" rel="noopener">OSU Extension</a>
-        <a href="https://www.thekitchn.com/how-to-freeze-herbs-in-olive-oil-194218" target="_blank" rel="noopener">The Kitchn — Freeze Herbs in Oil</a>
-        <a href="https://www.freeyourfork.com/how-to-freeze-fresh-herbs-in-olive-oil/" target="_blank" rel="noopener">Free Your Fork (“Herb Bombs”)</a>
-      </div>
-    </details>
-    <div class="links" style="margin-top:10px"><a href="soil.html">Next: Soil →</a></div>
+  <section class="section"><h2 class="section-title">Methods & guides</h2>
+    <h3>Freezing — lock in flavor & nutrients</h3>
+    <div class="links">
+      <a href="https://extension.umn.edu/preserving-and-preparing/freezing-produce" target="_blank">UMN Extension</a>
+      <a href="https://extension.illinois.edu/food-preservation/freezing" target="_blank">Illinois Extension</a>
+    </div>
+    <h3>Canning — shelf-stable sauces, jams & veg</h3>
+    <div class="links">
+      <a href="https://extension.psu.edu/lets-preserve-basics-of-home-canning/" target="_blank">Penn State Extension</a>
+      <a href="https://nchfp.uga.edu/how/can/general-information/storing-home-canned-foods/" target="_blank">NCHFP</a>
+    </div>
   </section>
 </div>
 <footer class="wrap">© <span id="year"></span> How to Food</footer></body></html>
